@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="anasayfa" xml:space="preserve">
+    <value>EV</value>
+  </data>
+  <data name="efsaneler" xml:space="preserve">
+    <value>EFSANELER</value>
+  </data>
+  <data name="footer" xml:space="preserve">
+    <value>Bu sitenin tüm hakları Havvanur Bozkurt'a aittir.</value>
+  </data>
+  <data name="genel_baslik" xml:space="preserve">
+    <value>MARDİN HAKKINDA GENEL BİLGİ</value>
+  </data>
+  <data name="haberler" xml:space="preserve">
+    <value>HABERLER</value>
+  </data>
+  <data name="kaydol" xml:space="preserve">
+    <value>KAYDOL</value>
+  </data>
+  <data name="kb1" xml:space="preserve">
+    <value>BİTLİS'İN TARİHİ TAŞ EVLERİNE ZİYARETÇİ AKINI OLUŞTU</value>
+  </data>
+  <data name="kb2" xml:space="preserve">
+    <value>SPİL DAĞINDAN SONBAHAR MANZARALARI</value>
+  </data>
+  <data name="kb3" xml:space="preserve">
+    <value>YER ALTINDAKİ GİZEMLİ DÜNYA: KARACA MAĞARASI</value>
+  </data>
+  <data name="ks" xml:space="preserve">
+    <value>Devamı için tıklayınız.</value>
+  </data>
+  <data name="ky1" xml:space="preserve">
+    <value>Bitlis'in Hizan ilçesine bağlı Gayda köyünün yıllara meydan okuyan taş evleri, sonbahar birlikte ziyaretçilerini ağırlıyor. 
+              Çoğu, derin vadiler arasındaki yamaçlara kurulu çok katlı tarihi taş evlerden oluşan köyler, 
+              sonbaharda fotoğraf sanatçıları, gezginler ve turistlerden büyük ilgi görüyor.</value>
+  </data>
+  <data name="ky2" xml:space="preserve">
+    <value>Manisa'da, endemik bitkileri ve yılkı atları ile ilgi çeken, 1517 rakımdaki Spil Dağı Milli Parkı'nda sonbahar güzelliği yaşanıyor. 
+              Orman manzarası, havadan dronla görüntülendi.</value>
+  </data>
+  <data name="ky3" xml:space="preserve">
+    <value>Gümüşhane'de dünyanın sayılı damla taş mağaralarından olan, 150 milyon yıllık olduğu belirtilen Karaca Mağarası, 
+                yaz turizm sezonunda 90 bin ziyaretçiyi ağırladı.</value>
+  </data>
+  <data name="mardin" xml:space="preserve">
+    <value>MARDİN </value>
+  </data>
+  <data name="mardin_efsane" xml:space="preserve">
+    <value>Mardin ile İlgili Efsaneler</value>
+  </data>
+  <data name="mardin_genel" xml:space="preserve">
+    <value>GENEL</value>
+  </data>
+  <data name="mardin_gezilecekyer" xml:space="preserve">
+    <value>GEZİLECEK YERLER</value>
+  </data>
+  <data name="mardin_tarihi" xml:space="preserve">
+    <value>TARİHİ</value>
+  </data>
+  <data name="mardin_yemek" xml:space="preserve">
+    <value>YÖREYE ÖZGÜ YEMEKLER</value>
+  </data>
+  <data name="merhaba" xml:space="preserve">
+    <value>Merhaba</value>
+  </data>
+  <data name="oturumac" xml:space="preserve">
+    <value>OTURUM AÇ</value>
+  </data>
+  <data name="oturumukapat" xml:space="preserve">
+    <value>OTURUMU KAPAT</value>
+  </data>
+  <data name="s1" xml:space="preserve">
+    <value>Seyahat etmekten hoşlanır mısınız? Tabii ki dediğinizi duyar gibiyim. </value>
+  </data>
+  <data name="s2" xml:space="preserve">
+    <value>Seyahat etmek yeni yerler görmek, yeni insanlar tanımak, farklı lezzetleri tatmak ve şehrin, 
+        gezdiğimiz yerin havasını tüm bedenimizde hissetmektir. Tarifsiz bir mutluluk verir. 
+        Hele bir de seyahat esnasında her şey planladığınız gibi gitmişse o zaman değmeyin keyfimize. </value>
+  </data>
+  <data name="s3" xml:space="preserve">
+    <value>Bir seyahate başlamadan önce gideceğimiz yeri iyi tespit etmek gerekir.  
+        Zorunlu bir seyahat değilse (iş, okul, sağlık) öncelikle gideceğiniz yer hakkında bir ön araştırma yapmalısınız.
+        Gideceğiniz yeri belirledikten sonra o yer hakkında bilgi edinmelisiniz. İşte ben ve sitem sizin için buradayız.</value>
+  </data>
+  <data name="s4" xml:space="preserve">
+    <value>BİZE ULAŞIN</value>
+  </data>
+  <data name="sanliurfa" xml:space="preserve">
+    <value>ŞANLIURFA</value>
+  </data>
+  <data name="sanliurfa_efsane" xml:space="preserve">
+    <value>Şanlıurfa ile İlgili Efsaneler</value>
+  </data>
+  <data name="sehirler" xml:space="preserve">
+    <value>ŞEHİRLER</value>
+  </data>
+  <data name="y1" xml:space="preserve">
+    <value>Mardin ili Güneydoğu Anadolu Bölgesi'nin Dicle Bölümü'nde yer alır.
+                    Suriye ile sınır komşusudur. Güneyinde Suriye, batısında Şanlıurfa ili, kuzeyinde Diyarbakır ve Batman illeri,
+                    kuzeydoğusunda Siirt ili ve doğusunda Şırnak ili bulunur.</value>
+  </data>
+  <data name="y2" xml:space="preserve">
+    <value>Mardin, Yukarı Mezopotamya havzasında Dicle ve Fırat nehirleri arasında aynı adı taşıyan ilde yer almaktadır.
+                    Bu bölge eski Yunanlılar tarafından “iki nehir arasındaki ülke” olarak adlandırılıyordu.</value>
+  </data>
+  <data name="y3" xml:space="preserve">
+    <value>Tahılların ana depolarından biri olarak kabul edilir. Zengin toprağı nedeniyle birçok uygarlığın doğum yeri olmuştur.
+                    Tarım ve hayvancılık bu havzada başlamış ve en eski efsaneler buradan çıkmıştır.</value>
+  </data>
+  <data name="y4" xml:space="preserve">
+    <value>Nuh Tufanı, Peygamber İdris (İncil'de Enoch olarak bilinir) ve daha birçok efsane bu topraklara atfedilir.</value>
+  </data>
+  <data name="y5" xml:space="preserve">
+    <value>1960'lı bakış açısına göre başlangıç ​ve kır planı olarak başlamaya başladı.
+                    1990 yılındaki dört ilçenin komşu illere nüfusu %14,4 oranındadır. 2000 nüfusta ilk defa kır kırsalı,
+                    kent gerisinde kalanlar. Bunda en önemli saygılar ve 90'lı karşılaşmalarla ilgili etkinliklerdir.
+                    Güvenlik kaygıları nedeniyle hem ildeki kesimlerden, hem de diğer illerden Mardin şehrine taşınma hareketlerine başladı.</value>
+  </data>
+  <data name="y6" xml:space="preserve">
+    <value>Şehir nüfusu oranı %60, kırsal nüfus oranı %43'tür. Nüfusu en yüksek ilçeler sırasıyla Kızıltepe, Merkez, Nusaybin ve Midyat'tır.
+                    Genç bir nüfus yapısına sahiptir. 2000 yılına göre 15 yaşın altındaki nüfusun oranı %44,8'dir.</value>
+  </data>
+  <data name="y7" xml:space="preserve">
+    <value>Türkiye'deki en farklılaşmış nüfusa sahip illerinden biridir.
+                    İlde Kürtler, Hıristiyan Süryaniler, Sünni Araplar, Türkler, Yezidiler ve Ermeniler yaşamaktadır.
+                    Zaman içinde Süryani ve Yezidi nüfusu göçler sebebiyle azalmıştır.
+                    Lübnan'ın başkenti Beyrut'ta Mardin ve Midyat bölgesinde az sayıda Süryani yaşamaktadır.</value>
+  </data>
+  <data name="y8" xml:space="preserve">
+    <value>Mardin, yazları çok sıcak ve kurak, kışları ise soğuk,
+                    yağışlı ve ara sıra karlı geçen sıcak yaz Akdeniz iklimine (Köppen: Csa, Trewartha: Cs) sahiptir.
+                    Mardin çok güneşli, yılda 3000 saatin üzerinde güneş alıyor.
+                    Yazın sıcaklıklar kolayca 40 °C'ye (104 °F) ulaşabilirken, karasal doğası nedeniyle kış havası Aralık ve Mart ayları arasında
+                    hala biraz yaygındır ve genellikle bir veya iki hafta kar yağar. Kaydedilen en yüksek sıcaklık 42,5 °C'dir (108,5 °F).</value>
+  </data>
+  <data name="yorum" xml:space="preserve">
+    <value>YORUMLAR</value>
+  </data>
+</root>

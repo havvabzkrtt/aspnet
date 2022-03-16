@@ -1,0 +1,189 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-4 çoküstboşluk">
+            <br><br>
+            <ul type="circle">
+                <li><strong class="liste">@Html.ActionLink("GENEL", "Mardin_Genel", "Mardin")</strong></li>
+                <li><strong class="liste">@Html.ActionLink("TARİHİ", "Mardin_Tarihi", "Mardin")</strong></li>
+                <li><strong class="liste">@Html.ActionLink("GEZİLECEK YERLER", "Mardin_GezilecekYerler", "Mardin")</strong></li>
+                <li><strong class="liste">@Html.ActionLink("YÖREYE ÖZGÜ YEMEKLER", "Mardin_YöreyeÖzgüYemekler", "Mardin")</strong></li>
+            </ul>
+        </div>
+
+
+        <div class="col-md-8 üstboşluk">
+
+            <div class="col-md-12 başlık">
+                <strong>
+                    MARDİN GEZİLECEK YERLER
+                    <hr style="height: 3px;">
+                    <br>
+                </strong>
+            </div>
+
+            <div class="row">
+                <div class="col-md-8">
+                    <strong> MARDİN KALESİ </strong>
+                    <br>
+                    <p class="yazılar">
+                        Mardin, şehre hakim bir tepede bulunan ve muhteşem taş işçiliği ile taçlandırılmış kalesiyle de ünlüdür.
+                        Korumalı konumu nedeniyle “Kartal Yuvası” olarak bilinir. MS 975-976 yıllarında Hamdanilerden Abdullah Bin Hamdan tarafından yaptırılmıştır.
+                        Deniz seviyesinden 1200 metre yükseklikte ve 30 ila 150 metre genişliğindedir.
+                        Bu kale Subaru, Sümerler, Babiller, Asurlular, Persler, Romalılar, Bizanslılar, Osmanlılar ve daha birçokları zamanında önemli bir rol oynamıştır.
+                        Bu farklı dönemlerde Mardin'e gelen seyyahların raporlarından da kalenin içinde ambarlar, kuyular ve hamamlar olmak üzere birçok ilavenin olduğu anlaşılmaktadır.
+                        Ne yazık ki günümüzde askeri üs olduğu için ziyaret edilememektedir."
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <div>
+                        <img src=@Url.Content("~/Content/Site/resimler/gezilecek_yerler/mardin_kalesi.jpg") alt="" class="geziYemekResim">  <!-- iki yere de class="geziYemekResim" ekledim, taşmasın diye ekran büyüp küçülünce-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row üstboşluk">
+
+        <div class="col-md-4">
+            <div>
+                <img src=@Url.Content("~/Content/Site/resimler/gezilecek_yerler/gezilecek_yerler1.jpg") alt="" class="altaltaresim">  <!-- iki yere de class="geziYemekResim" ekledim, taşmasın diye ekran büyüp küçülünce-->
+            </div>
+        </div>
+
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-8">
+                    <strong> ESKİ MARDİN EVLERİ </strong>
+                    <br>
+                    <p class="yazılar">
+                        Bölgeye ait sarı kalker taşlarından yapılan şehirde Orta Çağ görüntüsüne bürünen Tarihi Mardin Evleri, adeta bir sanat eseridir.
+                        Yapımda kullanılan bu taşların özelliği, dışarının sıcaklığı, evin içerisine yansıtmayışıdır.
+                        Mazı Dağı’nın eteklerinde konumlandırılmış bu açık hava müzesini andıran evlerin oluşturduğu görüntü büyüleyici dersem yeri.
+                        Evlerin arasında yürürken bir labirentin içine girmiş hissine kapılacaksınız.
+                        Tarihi bir tablo gibi görünen bu evler, Mardin’in sosyolojik ve iklim yapısına uygun olarak yapılmış toprak rengindeki büyüleyici evler
+                        bölgenin en değerli yeridir.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <div>
+                        <img src=@Url.Content("~/Content/Site/resimler/gezilecek_yerler/eski_mardin_evleri.jpg") alt="" class="geziYemekResim">  <!-- iki yere de class="geziYemekResim" ekledim, taşmasın diye ekran büyüp küçülünce-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+
+        <div class="col-md-4">
+            <div>
+                <img src=@Url.Content("~/Content/Site/resimler/gezilecek_yerler/gezilecek_yerler2.jpg") alt="" class="altaltaresim">  <!-- iki yere de class="geziYemekResim" ekledim, taşmasın diye ekran büyüp küçülünce-->
+            </div>
+        </div>
+
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-8">
+                    <strong> MARDİN MİDYAT KENT MÜZESİ </strong>
+                    <br>
+                    <p class="yazılar">
+                        Mardin’in Midyat ilçesinde yer alan Mardin Midyat Kent Müzesi, Midyat Belediyesi tarafından açılmış olup eski işlevinin han olduğu bilinmektedir.
+                        Burası mağaranın içinde kurulmuştur. Eski bir han olduğu içinde çok sayıda dükkan yer alıyor. Onarım çalışmaları sırasında bu özelliğine dokunulmamıştır.
+                        İçerisinde; Sümer, Akad, Mittani, Hitit, Asur, İskit, Babil, Pers, Roma, Bizans, Arap, Selçuklu, Artuklu ve Osmanlı Dönemine ait
+                        parçalar sergilenirken ve antika severler için merak uyandırıcı bir hal almıştır. Önceden dükkan olarak kullanılan odalarda ise;
+                        yöreye özgü tekniklerle işlenmiş kilim ve takı gibi eşyaların satışlarının yapılması için esnaflara verilmiştir.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <div>
+                        <img src=@Url.Content("~/Content/Site/resimler/gezilecek_yerler/midyat_kent_müzesi.jpeg") alt="" class="geziYemekResim">  <!-- iki yere de class="geziYemekResim" ekledim, taşmasın diye ekran büyüp küçülünce-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+
+        <div class="col-md-4">
+            <div>
+                <img src=@Url.Content("~/Content/Site/resimler/gezilecek_yerler/gezilecek_yerler3.jpg") alt="" class="altaltaresim">  <!-- iki yere de class="geziYemekResim" ekledim, taşmasın diye ekran büyüp küçülünce-->
+            </div>
+        </div>
+
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-8">
+                    <strong> BEYAZSU </strong>
+                    <br>
+                    <p class="yazılar">
+                        Midyat- Nusaybin yolundna 25 kilometre uzaklıktaki Beyazsu, Mardin için adeta bir nimet.
+                        Kurak bitki örtüsünün ortasında yeşil kavak ve söğüt ağaçlarının güzelliğine güzellik kattığı Beyazsu, Mardin’in içme suyu ihtiyacını karşılıyor.
+                        Yerden kaynayan temiz su etrafına can vermekle kalmamış, pek çok ilçe içinde su kaynağı haline gelmiştir.
+                        Beyazsu içerisinde bulunan alabalık tesisleri ve piknik alanları şehrin kafa dinleyeceğiniz ve bunaltıcı sıcaklardan kaçarak
+                        kendinizi doğanın kucağına atabileceğiniz bir ortam.
+                        <br>
+                        Ahşap malzemeler kullanılarak yapılmış çardaklarda oturup, ayaklarınızı serin suların içine daldırabilirsiniz.
+                        Bir semaver çay içip sonrasında lezzetli bir alabalık midenizi şenlendirecektir.
+                        Daha çok Mardin halkı tarafından biliniyor olup bir yabancının bu tarz yerlerin olduğu konusunda bilgisi yok.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <div>
+                        <img src=@Url.Content("~/Content/Site/resimler/gezilecek_yerler/beyazsu.jpg") alt="" class="geziYemekResim">  <!-- iki yere de class="geziYemekResim" ekledim, taşmasın diye ekran büyüp küçülünce-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row altboşluk">
+
+        <div class="col-md-4">
+            <div>
+                <img src=@Url.Content("~/Content/Site/resimler/gezilecek_yerler/gezilecek_yerler4.jpg") alt="" class="altaltaresim">  <!-- iki yere de class="geziYemekResim" ekledim, taşmasın diye ekran büyüp küçülünce-->
+            </div>
+        </div>
+
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-8">
+                    <strong> ĞURS VADİSİ </strong>
+                    <br>
+                    <p class="yazılar">
+                        Mardin’in doğal güzelliklerinden bir tanesi de Ğurs Vadisi’dir.
+                        Vadi Kızıltepe ilçesine 7 kilometre uzaklıkta yer alıyor olup, içerisinde görülmeye değer şelale ve daha nice doğal güzellikleriyle
+                        tam bir kaçış noktası durumuna gelmiştir. Mardin merkezde hava 40-45 dereceyken, vadide 30 dereceye kadar düşüyor.
+                        Sıcaktan bunalanların rotasını çevirebileceği doğa harikası Ğurs Vadisi içinde; şelale, göletler ve piknik alanlarıyla birlikte
+                        Mardin’e gelindiğinde mutlaka görülmesi gereken bir yer. Günümüzde bahçe olarak kullanılan vadide tam 12 köy bulunuyor.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <div>
+                        <img src=@Url.Content("~/Content/Site/resimler/gezilecek_yerler/ğurs_vadisi.jpg") alt="" class="geziYemekResim">  <!-- iki yere de class="geziYemekResim" ekledim, taşmasın diye ekran büyüp küçülünce-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

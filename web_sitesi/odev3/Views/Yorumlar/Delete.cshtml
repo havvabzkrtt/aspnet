@@ -1,0 +1,60 @@
+﻿@model odev3.Models.Table
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+
+    <h2 class="üstboşluk"> YORUMU SİL </h2>
+    <hr class="altboşluk" style="height:2px; width:200px;" />
+
+
+    <h3>Bu yorumu silmek istediğinizden emin misiniz?</h3>
+    <div>
+        <!-- <h4>Table</h4>
+        <hr />
+        -->
+
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Ad)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Ad)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Soyad)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Soyad)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Yorum)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Yorum)
+            </dd>
+
+        </dl>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="Sil" class="btn btn-default" />
+                <br />
+                <button type="button" class="btn btn-secondary altboşluk" style="background-color:aliceblue;">
+                    @Html.ActionLink("Yorum sayfasına dön", "Index")
+                </button>
+            </div>
+        }
+    </div>
+</div>

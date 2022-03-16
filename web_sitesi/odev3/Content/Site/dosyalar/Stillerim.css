@@ -1,0 +1,278 @@
+body{
+    background-color: rgb(140, 217, 240);
+    font-family: Georgia, 'Times New Roman', Times, serif;  /* Bütün sayfa böyle */
+}
+
+a{
+    cursor: pointer;
+    text-decoration:none;
+    color: #12229d;
+}
+
+.yazılar{
+    font-size: 13pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* MENÜ İÇİN */
+.logo{
+    height: 70px;
+}
+
+.kapsayici {
+    background-color: rgb(44,92,197); /* menü arkaplanı */
+    /*  border-bottom-left-radius: 10%;  navbarın alt kısımlarını ovalleştirmeye yara.*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-link{     
+    color: #cae8ff; /* yazı rengi için*/
+    font-weight: bold;   /* yazı kalınlığı için */
+    /* font-family: 'Mochiy Pop One', sans-serif;  /* yazı stili için */   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-item{
+    margin-top: 15px;
+    transition: all .5s ease;   /* Pencere küçülünce yazıları animasyonlaştırır. */
+}
+
+    .nav-item:hover {
+        background-color: rgb(140, 217, 240); /* hareket edince arkaplan */
+        /* padding-left: 30px; /* hareket edince sola hareket etmesi için kaydırdık. */ 
+    }
+
+.nav-link:hover{
+    color: #cae8ff;
+}
+
+
+
+/* SLİDER İÇİN*/
+.carousel-item{   /* Slider içindeki resimlere yükseklik verdik, Bootstrapın kendi classını genişlettik.*/
+    height: 800px;
+    
+}
+
+/* ANASAYFADAKİ YAZILAR İÇİN */
+.yazı{
+    font-size: 15pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 1cm;
+    margin-bottom: 2cm;
+    padding-right: 1cm;
+}
+
+.iletisim{
+    font-size: 15pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* border: 2px solid rgb(38, 7, 151); */
+    padding: 2cm;
+}
+
+/* ****************************************************************************** */
+
+/* HABERLER */
+
+/* Ana Sayfadaki haberler için */
+.haberBaslık{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 30pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 20%;
+    padding: 2px;;
+}
+
+.card1{
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: auto;
+    width:auto;
+    margin-bottom: 10px;
+    float: left;
+    margin-left: 149px;
+}
+
+.card2{
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: auto;
+    width:auto;
+    margin-bottom: 10px;
+    float: right;
+    margin-right: 148px;
+}
+
+.card3{
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: auto;
+    width:auto;
+    margin-bottom: 10px;
+    float: left;
+    margin-left: 149px;
+}
+
+
+/* Haber Sayfası için */
+
+.haberSayfasıBaslık{
+    font-size: 25pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+
+/* ****************************************************************************** */
+
+
+.üstboşluk{
+    margin-top: 3%;
+}
+
+.altboşluk{
+    margin-bottom: 3%;
+}
+
+.çoküstboşluk{
+    margin-top: 4cm;
+}
+
+.çokaltboşluk{
+    margin-bottom: 3cm;
+}
+
+/* ****************************************************************************** */
+
+
+
+
+
+/* MARDİN */
+
+.başlık{    /* Genel, tarihi gezilecek yerler ve yemekler için */
+    font-size: 20pt;
+    text-align: center;
+}
+
+
+/* ****************************************************************************** */
+
+.geziYemekResim{  /* Gezilecek yerler ve yemekler için */
+    width: 100%;
+    margin-bottom: 2%;
+    margin-top: 1cm;
+    border: 2px solid black;
+}
+
+.altaltaresim{   /* Gezilecek yerler ve yemekler için */
+    width: 100%;
+    margin-bottom: 2%;
+    margin-top: 5px;
+    border: 2px solid black;
+}
+
+
+/* ****************************************************************************** */
+
+.liste{
+    color: black;
+    font-size: 15pt;
+}
+
+/* ****************************************************************************** */
+
+/* efsaneler için */
+.efsanebaşlık{
+    text-align: center;
+}
+
+/* ****************************************************************************** */
+.son{
+    background-color: #12229d;
+    height: 30px;
+    color: #cae8ff;
+    margin: 2px;
+    text-align: center;
+}
+
+/* ****************************************************************************** */
+
+/* ÜYELİK İÇİN */
+
+.kayitFormu{
+    border-radius:10px;
+    background:#ffffff;
+    width:360px;
+    margin:auto;
+    margin-top:70px;  /* üstten yer bıraktı */
+    padding:15px;
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.kayitOl{     /* kayit olma butonu için */
+    color:white;
+    font-size: 15pt;
+    background:linear-gradient(-45deg, #ee7752 , #e73c7e, #23a6d5, #23d5ab);
+}
+
+.üyeGirisFormu{
+    border-radius:10px;
+    background:#ffffff;
+    width:360px;
+    margin:auto;
+    margin-top:90px;  /* üstten yer bıraktı */
+    padding:15px;
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.girisYap{     /* kayit olma butonu için */
+    color:white;
+    font-size: 15pt;
+    animation: gradient 15s ease infinite;
+    background:linear-gradient(-45deg, #ee7752 , #e73c7e, #23a6d5, #23d5ab);
+}
+
+@keyframes gradient{
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
+}
+
+/* Yönetici Paneli İçin */
+
+.tablo{
+    border: 2px solid black;
+    width: 600px;
+    text-align: center;
+    font-size: 13pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #12229d;
+    color: #cae8ff;
+}
+
+
+.tablo_tr{
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+.ilkSatır{
+    font-weight: bolder;
+    border: 2px solid black;
+}
+
+
+.btn{
+    background-color: #12229d;
+    color: #cae8ff;
+    border: 1px solid #cae8ff ;
+}
+

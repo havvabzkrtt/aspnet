@@ -1,0 +1,218 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-4 çoküstboşluk">
+            <br><br>
+            <ul type="circle">
+                <li><strong class="liste">@Html.ActionLink("GENEL", "Mardin_Genel", "Mardin")</strong></li>
+                <li><strong class="liste">@Html.ActionLink("TARİHİ", "Mardin_Tarihi", "Mardin")</strong></li>
+                <li><strong class="liste">@Html.ActionLink("GEZİLECEK YERLER", "Mardin_GezilecekYerler", "Mardin")</strong></li>
+                <li><strong class="liste">@Html.ActionLink("YÖREYE ÖZGÜ YEMEKLER", "Mardin_YöreyeÖzgüYemekler", "Mardin")</strong></li>
+            </ul>
+        </div>
+
+
+        <div class="col-md-8 üstboşluk">
+
+            <div class="col-md-12 başlık">
+                <strong>
+                    MARDİN YÖRESİNE ÖZGÜ YEMEKLER
+                    <hr style="height: 3px;">
+                    <br>
+                </strong>
+            </div>
+
+            <div class="row">
+                <div class="col-md-8">
+                    <strong> KİLİÇE </strong>
+                    <br>
+                    <p class="yazılar">
+                        Yapım ve lezzet bakımından diğer hamur işleriyle aynı olsa da, taşıdığı kültürel mirasıyla oldukça anlamlı bir lezzet.
+                        Hristiyanların cenaze, düğün gibi özel günlerde yaptığı kiliçe, kültürel ve dini bakımdan çok çeşitli olan Mardin’de de
+                        oldukça artmış.Türkiye’nin diğer bölgelerinde cenazelerde helva kavruluyorsa, Mardin’de kiliçe yapılıyor.
+                        <br>
+                        Mahlep, zencefil ve tarçının güzel tadını alabileceğiniz kiliçe, Hayat Çöreği olarak da biliniyor.
+                        Düğünlerde de gelin ve damadın ikiye böldüğü çörek, hayatı paylaşmak anlamına geliyor. Yapımı çok kolay olduğu için
+                        dilediğiniz zaman kendiniz de yapabilirsiniz, ancak Mardin’in tarihi sokaklarında, özel bir günde tatmanızı dileriz.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <div>
+                        <img src=@Url.Content("~/Content/Site/resimler/yemekler/kiliçe.jpg") alt="" class="geziYemekResim">  <!-- iki yere de class="geziYemekResim" ekledim, taşmasın diye ekran büyüp küçülünce-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row üstboşluk">
+
+        <div class="col-md-4">
+            <div>
+                <img src=@Url.Content("~/Content/Site/resimler/yemekler/yemek1.jpg") alt="" class="altaltaresim">  <!-- iki yere de class="geziYemekResim" ekledim, taşmasın diye ekran büyüp küçülünce-->
+            </div>
+        </div>
+
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-8">
+                    <strong> İNCASİYE </strong>
+                    <br>
+                    <p class="yazılar">
+                        Mardin yöresi dışında çok fazla bilinmeyen ama aslında geçmişte de sık sık yapılan yemeklerden biri olan incasiye,
+                        zamanında Osmanlı saray mutfağına şifalı yönüyle adını yazdırmış bir lezzet.
+                        Alluciye yemeğinden farklı olarak yeşil erik yerine, kuru siyah erikle yapılan yemek,
+                        kuşbaşı etlerle harika bir tat ortaya çıkarıyor. Günümüzde bize her ne kadar yabancı gelse de,
+                        Avrupalıların Pekin ördeği gibi, Türk mutfağında da fazlasıyla meyveli et yemekleri mevcut.
+                        Kara eriğin faydaları saymakla bitmiyor ancak, bu lezzeti günün birinde özel olarak mutlaka tatmanızı öneriyoruz.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="üstboşluk">
+                        <img src=@Url.Content("~/Content/Site/resimler/yemekler/incasiye.jpg") alt="" class="geziYemekResim">  <!-- iki yere de class="geziYemekResim" ekledim, taşmasın diye ekran büyüp küçülünce-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+
+        <div class="col-md-4">
+            <div>
+                <img src=@Url.Content("~/Content/Site/resimler/yemekler/yemek2.jpg") alt="" class="altaltaresim">  <!-- iki yere de class="geziYemekResim" ekledim, taşmasın diye ekran büyüp küçülünce-->
+            </div>
+        </div>
+
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-8">
+                    <strong> ACCİN </strong>
+                    <br>
+                    <p class="yazılar">
+                        Accin Mardin’in en ilginç lezzetlerinden biri. Geniş tepsiler içerisinde ince bulgurla soğanların kavrulup yoğuran Mardinliler,
+                        üzerine kişkiş eklediği bulgura son olarak, tavada ayrı olarak pişmiş yumurtaları koyuyor.
+                        Hem görüntü hem de lezzet olarak oldukça güzel olan yemeği, Mardinli birinin elinden mutlaka yemenizi tavsiye ederiz.
+                        Eğer şanslıysanız, Mardin’de yer alan ev yemekleri restoranlarında da bulabilirsiniz.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <div>
+                        <img src=@Url.Content("~/Content/Site/resimler/yemekler/accin.jpg") alt="" class="geziYemekResim">  <!-- iki yere de class="geziYemekResim" ekledim, taşmasın diye ekran büyüp küçülünce-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+
+        <div class="col-md-4">
+            <div>
+                <img src=@Url.Content("~/Content/Site/resimler/yemekler/yemek3.jpg") class="altaltaresim">  <!-- iki yere de class="geziYemekResim" ekledim, taşmasın diye ekran büyüp küçülünce-->
+            </div>
+        </div>
+
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-8">
+                    <strong> İKBEBET </strong>
+                    <br>
+                    <p class="yazılar">
+                        İkbebet ismini bilmeyenler için oldukça değişik gelebiliyor.
+                        Ancak bu lezzete yabancı olmadığınıza eminiz. Zira Mardinlilerin ikbebet dedikleri yemek,
+                        herkes tarafından haşlama içli köfte olarak biliniyor. İçli köftenin içine etli ve soğanlı harç koyulmasıyla yapılan yemek,
+                        kızartılan içli köftelerin yanı sıra, suda haşlanarak yapılıyor. Mardin’de pek çok yerde bulabileceğiniz bu lezzeti,
+                        dilerseniz kendi evinizde de deneyebilirsiniz.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <div>
+                        <img src=@Url.Content("~/Content/Site/resimler/yemekler/ikbebet.jpg") alt="" class="geziYemekResim">  <!-- iki yere de class="geziYemekResim" ekledim, taşmasın diye ekran büyüp küçülünce-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+
+        <div class="col-md-4">
+            <div>
+                <img src=@Url.Content("~/Content/Site/resimler/yemekler/yemek4.jpg") alt="" class="altaltaresim">  <!-- iki yere de class="geziYemekResim" ekledim, taşmasın diye ekran büyüp küçülünce-->
+            </div>
+        </div>
+
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-8">
+                    <strong> KAHİYE TATLISI </strong>
+                    <br>
+                    <p class="yazılar">
+                        Mardin’in meşhur tatlılarında başı çekenlerden birisi de Kahiye tatlısı.
+                        Künefe peyniriyle yapılan hamurlar, şerbet ve Antep fıstığıyla birleşince parmaklarınızı yiyeceğiniz bir lezzet ortaya çıkıyor.
+                        Yanına bir de Mardin’in meşhur kahvesi mırra ya da taze demlenmiş bir çay eşlik ederse, unutulmaz bir lezzet karışımı ortaya çıkıyor.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <div>
+                        <img src=@Url.Content("~/Content/Site/resimler/yemekler/kahiye_tatlisi.jpg") alt="" class="geziYemekResim">  <!-- iki yere de class="geziYemekResim" ekledim, taşmasın diye ekran büyüp küçülünce-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+
+        <div class="col-md-4">
+            <div>
+                <img src=@Url.Content("~/Content/Site/resimler/yemekler/yemek5.jpg") alt="" class="altaltaresim">  <!-- iki yere de class="geziYemekResim" ekledim, taşmasın diye ekran büyüp küçülünce-->
+            </div>
+        </div>
+
+        <div class="col-md-8">
+            <div class="row altboşluk">
+                <div class="col-md-8">
+                    <strong> MIRRA </strong>
+                    <br>
+                    <p class="yazılar">
+                        Arap kültüründe yaygın olarak tüketilen Mırra, Güneydoğu Anadolu’da oldukça tüketilen kahve çeşitlerinden.
+                        Mardin’de de sıklıkla tüketilen içeceklerden olan mırra, acı olması sebebiyle az ve küçük bardaklarda tüketiliyor.
+                        Mardin’in pek çok lezzeti gibi mırranın da içme kültürü bulunuyor. Uzun ve meşakkatli bir yapım sürecinden geçen mırrayı,
+                        kişi sayısı farketmeksizin herkes aynı bardaktan içiyor.
+                        Mırra içen kişinin bardağı, servis eden kişiye geri vermesi gerekiyor ki bardağı silip sıradaki kişiye verebilsin.
+                        Aynı zamanda bardağı ters çevirmeden geri verirseniz, bu bir bardak daha istediğiniz anlamına geldiğinden,
+                        yeniden doldurulmuş bir bardakla karşılaşabilirsiniz. Siz siz olun mırra bardağınızı yere veya masaya bırakmayın.
+                        Eski adetlere göre, mırra bardağını yere bırakan, servis eden kişiye evlenmek, evlendirmek,
+                        çeyiz düzmek gibi yardımlar konusunda borçlanmış sayılıyor. Mırranın sağlık açısından da konsantrasyon,
+                        karaciğer rahatsızlıkları gibi konularda oldukça faydalı olduğu biliniyor. Ancak kafeinin her türünde olduğu gibi,
+                        mırrayı da gereğinden fazla tüketmemek gerekiyor.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <div>
+                        <img src=@Url.Content("~/Content/Site/resimler/yemekler/mırra.jpg") alt="" class="geziYemekResim">  <!-- iki yere de class="geziYemekResim" ekledim, taşmasın diye ekran büyüp küçülünce-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

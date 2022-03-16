@@ -1,0 +1,121 @@
+﻿
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    @Scripts.Render("~/bundles/modernizr")
+
+    <title> @(Html.Raw(ViewBag.Title)) </title>  <!-- Her sayfasnın kendine özgü baslıgı olsun diye-->
+    <link rel="stylesheet" href=@Url.Content("~/Content/Site/dosyalar/bootstrap.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/Site/dosyalar/bootstrap.min.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/Site/dosyalar/Stillerim.css")>
+    <link rel="stylesheet" href=@Url.Content("~/Content/Site/ikon_style.css")>   <!-- Toggler ikonu için -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- ikonlar için -->
+
+    <style>
+        body {
+            background-color: rgb(140, 217, 240);
+        }
+    </style>
+
+</head>
+<body>
+
+
+    <!--   *********************************************************************  -->
+    <!-- MENÜ -->
+    <nav class="navbar navbar-expand-lg kapsayici ">
+        <!-- arkaplan için kapsayici classını kullandık-->
+        <div class="container-fluid">
+            <a class="navbar-brand ms-0 ms-md-5" href="#">
+                <!-- ms-0 ve ms-md-5  , ekran küçülünce (mobil sayfalar) için logoyu düzelttik. -->
+                <img src=@Url.Content("~/Content/Site/resimler/logo_laryon.png") class="img-fluid logo" alt="">
+            </a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="icon-contrast"></span>  <!-- <span class="navbar-toggler-icon"> bunun yerine şimdikini yazarak ekran küçülünce çıkan ikonumuzu değiştirdik.-->
+            </button>
+
+            <!-- Menünün sağ tarafındaki seçenekler -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!--Menüdeki secenekler: me(solda) ms(sağda) mx(ortada) -auto-->
+                    <li class="nav-item me-5 nav-link active" aria-current="page">
+                        @Html.ActionLink(odev3.Kaynaklar.dili.anasayfa, "AnaSayfa", "Home")
+                    </li>
+
+                    <!-- ŞEHİRLER -->
+                    <li class="nav-item me-5 dropdown">
+                        <ul class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            @Html.ActionLink(odev3.Kaynaklar.dili.sehirler,"","")
+                        </ul>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li class="dropdown-item">@Html.ActionLink(odev3.Kaynaklar.dili.mardin, "Mardin_Genel", "Mardin")</li>
+                            <li class="dropdown-item">@Html.ActionLink(odev3.Kaynaklar.dili.sanliurfa, "", "")</li>
+                        </ul>
+                    </li>
+
+                    <!-- EFSANELER -->
+                    <li class="nav-item me-5 dropdown">
+                        <ul class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            @Html.ActionLink(odev3.Kaynaklar.dili.efsaneler,"","")
+                        </ul>
+                        <ul class="dropdown-menu class=" me-5"" aria-labelledby="navbarDropdown">
+                            <li class="dropdown-item">@Html.ActionLink(odev3.Kaynaklar.dili.mardin_efsane, "Mardin_Efsane", "Efsaneler")</li>
+                            <li class="dropdown-item">@Html.ActionLink(odev3.Kaynaklar.dili.sanliurfa_efsane, "", "")</li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item me-5 nav-link active" aria-current="page">
+                        @Html.ActionLink(odev3.Kaynaklar.dili.yorum, "Index", "Yorumlar")
+                    </li>
+
+</div>
+
+
+            <!-- Menünün sol tarafındaki seçenekler -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <!-- navbar-nav ms-auto mb-2 mb-lg-0 -->
+                    <!--Menüdeki secenekler: me(solda) ms(sağda) mx(ortada) -auto-->
+
+                    @Html.Partial("_LoginPartial")
+
+                </ul>
+
+                <!-- DİL DESTEĞİ -->
+                    <ul class="nav-item me"><strong> @Html.ActionLink("TR", "dilDegistir", "Home", new { lang = "tr", returnurl = this.Request.RawUrl }, null) </strong></ul>
+                    <ul class="nav-item me"><strong> @Html.ActionLink("EN", "dilDegistir", "Home", new { lang = "en", returnurl = this.Request.RawUrl }, null) </strong></ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--   *********************************************************************  -->
+
+    @RenderBody()
+
+    <footer class="son">
+        <strong>
+            <i class="fa fa-copyright" aria-hidden="true"></i>
+            @DateTime.Now.Year - @odev3.Kaynaklar.dili.footer
+        </strong>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script src=@Url.Content("~/Content/Site/dosyalar/bootstrap.js")></script>
+</body>
+</html>
+

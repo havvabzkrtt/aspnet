@@ -1,0 +1,112 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-md-4 çoküstboşluk">
+            <ul type="circle">
+                <li><strong class="liste">@Html.ActionLink(odev3.Kaynaklar.dili.mardin_genel, "Mardin_Genel", "Mardin")</strong></li>
+                <li><strong class="liste">@Html.ActionLink(odev3.Kaynaklar.dili.mardin_tarihi, "Mardin_Tarihi", "Mardin")</strong></li>
+                <li><strong class="liste">@Html.ActionLink(odev3.Kaynaklar.dili.mardin_gezilecekyer, "Mardin_GezilecekYerler", "Mardin")</strong></li>
+                <li><strong class="liste">@Html.ActionLink(odev3.Kaynaklar.dili.mardin_yemek, "Mardin_YöreyeÖzgüYemekler", "Mardin")</strong></li>
+            </ul>
+        </div>
+
+
+        <div class="col-md-8 üstboşluk">
+            <div class="row">
+                <div class="col-md-12 başlık">
+                    <strong>
+                        @odev3.Kaynaklar.dili.genel_baslik  <!-- MARDİN HAKKINDA GENEL BİLGİ -->
+                        <hr style="height: 3px;">
+                        <br>
+                    </strong>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 yazılar">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    @odev3.Kaynaklar.dili.y1
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    @odev3.Kaynaklar.dili.y2
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    @odev3.Kaynaklar.dili.y3
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    @odev3.Kaynaklar.dili.y4
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="row">
+
+        <div class="col-md-8 üstboşluk">
+            <div class="row">
+                <div class="col-md-12 yazılar">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    @odev3.Kaynaklar.dili.y5
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    @odev3.Kaynaklar.dili.y6
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    @odev3.Kaynaklar.dili.y7
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4 üstboşluk">
+            <br><br>
+            <img src=@Url.Content("~/Content/Site/resimler/genel_tarih/harita_mardin_genel1.png") alt="" style="width: 100%; border: 1px solid black;">
+
+        </div>
+
+
+
+    </div>
+
+
+    <div class="row">
+
+        <div class="col-md-8 ">
+            <div class="row">
+                <div class="col-12 çokaltboşluk yazılar">
+                    <br><br><br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    @odev3.Kaynaklar.dili.y8
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4 üstboşluk altboşluk">
+            <br><br><br>
+            <img src=@Url.Content("~/Content/Site/resimler/genel_tarih/mardin_genel2.jpg") alt="" style="width: 100%; border: 2px solid black;">
+        </div>
+
+    </div>
+
+    <div class="row altboşluk">
+        <div class="col-md-6">
+            <img src=@Url.Content("~/Content/Site/resimler/genel_tarih/sokaklar_mardin_genel3.png") alt="" style="width: 100%; border: 2px solid black;">
+        </div>
+        <div class="col-md-6">
+            <img src=@Url.Content("~/Content/Site/resimler/genel_tarih/mardin_genel4.png") alt="" style="width: 95%; border: 2px solid black;">
+        </div>
+    </div>
+
+
+
+</div>

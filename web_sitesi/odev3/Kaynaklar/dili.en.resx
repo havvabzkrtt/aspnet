@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="anasayfa" xml:space="preserve">
+    <value>HOME</value>
+  </data>
+  <data name="efsaneler" xml:space="preserve">
+    <value>LEGENDS</value>
+  </data>
+  <data name="footer" xml:space="preserve">
+    <value>All rights of this site belong to Havvanur Bozkurt.</value>
+  </data>
+  <data name="genel_baslik" xml:space="preserve">
+    <value>GENERAL INFORMATION ABOUT OF MARDIN</value>
+  </data>
+  <data name="haberler" xml:space="preserve">
+    <value>NEWS</value>
+  </data>
+  <data name="kaydol" xml:space="preserve">
+    <value>SIGN UP</value>
+  </data>
+  <data name="kb1" xml:space="preserve">
+    <value>VISITORS CREATED TO THE HISTORICAL STONE HOUSES OF BITLIS</value>
+  </data>
+  <data name="kb2" xml:space="preserve">
+    <value>AUTUMN VIEWS FROM SPIL MOUNTAIN</value>
+  </data>
+  <data name="kb3" xml:space="preserve">
+    <value>MYSTERIOUS WORLD UNDERGROUND: KARACA CAVE</value>
+  </data>
+  <data name="ks" xml:space="preserve">
+    <value>Click to continue.</value>
+  </data>
+  <data name="ky1" xml:space="preserve">
+    <value>The stone houses of Gayda village of Hizan district of Bitlis, which defy the years, welcome their visitors together in autumn. 
+              The villages, mostly consisting of multi-storey historical stone houses built on the slopes between deep valleys, 
+              attract great attention from photographers, travelers and tourists in autumn.</value>
+  </data>
+  <data name="ky2" xml:space="preserve">
+    <value>In Manisa, the beauty of autumn is experienced in the Spil Mountain National Park, at an altitude of 1517, 
+                which attracts attention with its endemic plants and horses.
+                Forest landscape, viewed from aerial drone.</value>
+  </data>
+  <data name="ky3" xml:space="preserve">
+    <value>Karaca Cave, which is one of the few drip stone caves in the world in Gümüşhane and is stated to be 150 million years old, 
+                    hosted 90 thousand visitors during the summer tourism season.</value>
+  </data>
+  <data name="mardin" xml:space="preserve">
+    <value>MARDIN</value>
+  </data>
+  <data name="mardin_efsane" xml:space="preserve">
+    <value>Legends About of Mardin</value>
+  </data>
+  <data name="mardin_genel" xml:space="preserve">
+    <value>GENERAL</value>
+  </data>
+  <data name="mardin_gezilecekyer" xml:space="preserve">
+    <value>PLACES TO VISIT</value>
+  </data>
+  <data name="mardin_tarihi" xml:space="preserve">
+    <value>HISTORY</value>
+  </data>
+  <data name="mardin_yemek" xml:space="preserve">
+    <value>REGIONAL DISHES</value>
+  </data>
+  <data name="merhaba" xml:space="preserve">
+    <value>Hello </value>
+  </data>
+  <data name="oturumac" xml:space="preserve">
+    <value>LOGIN</value>
+  </data>
+  <data name="oturumukapat" xml:space="preserve">
+    <value>SIGN OUT</value>
+  </data>
+  <data name="s1" xml:space="preserve">
+    <value>Do you like to travel? Of course I can hear you say. </value>
+  </data>
+  <data name="s2" xml:space="preserve">
+    <value>Traveling is seeing new places, getting to know new people, tasting different flavors and feeling the air of the city and 
+        the place we are visiting all over our body. It gives indescribable happiness. 
+        Especially if everything went as you planned during the trip, then it's not worth our pleasure. </value>
+  </data>
+  <data name="s3" xml:space="preserve">
+    <value>Before starting a trip, it is necessary to determine the destination well. 
+        If it is not a compulsory travel (work, school, health), you should first do a preliminary research about the place you are going to.
+        After you determine the place you are going to, you should learn about that place. Here me and my site are here for you.</value>
+  </data>
+  <data name="s4" xml:space="preserve">
+    <value>CONTACT US</value>
+  </data>
+  <data name="sanliurfa" xml:space="preserve">
+    <value>SANLIURFA</value>
+  </data>
+  <data name="sanliurfa_efsane" xml:space="preserve">
+    <value>Legends About of Sanliurfa</value>
+  </data>
+  <data name="sehirler" xml:space="preserve">
+    <value>CITIES</value>
+  </data>
+  <data name="y1" xml:space="preserve">
+    <value>Mardin province is located in the Tigris Section of the Southeastern Anatolia Region.
+                    It is neighbor of borders with Syria. It is surrounded by Syria in the south, 
+                    Şanlıurfa province in the west, Diyarbakır and Batman provinces in the north, 
+                    Siirt province in the northeast and Şırnak province in the east.</value>
+  </data>
+  <data name="y2" xml:space="preserve">
+    <value>Mardin is located in the province of the same name between the Tigris and Euphrates rivers in the Upper Mesopotamian basin. 
+                    This area used to be called by ancient Greeks “the country between two rivers”.</value>
+  </data>
+  <data name="y3" xml:space="preserve">
+    <value>It was considered as one of the major depository of grains. 
+                    Because of its rich soil, it was the birthplace of many civilisations. 
+                    Agriculture and animal husbandry began in this basin and the earliest legends originated here.</value>
+  </data>
+  <data name="y4" xml:space="preserve">
+    <value>The legends of Noah’s Flood, the Prophet Idris (known in the Bible as Enoch), and many others are attributed to this land.</value>
+  </data>
+  <data name="y5" xml:space="preserve">
+    <value>It started out as a starter and country plan from a 1960's perspective. 
+                    The population of the four districts to neighboring provinces in 1990 was 14.4%. 
+                    For the first time in 2000 population, rural countryside, those who are behind the city. 
+                    The most important in this are the events related to the homages and 90s encounters. 
+                    Due to security concerns, he started to move to Mardin city from both parts of the province and other provinces.</value>
+  </data>
+  <data name="y6" xml:space="preserve">
+    <value>The urban population ratio is 60%, the rural population ratio is 43%. 
+                    Districts with the highest population are Kızıltepe, Merkez, Nusaybin and Midyat, respectively. 
+                    It has a young population structure. Compared to 2000, the rate of the population under the age of 15 is 44.8%.</value>
+  </data>
+  <data name="y7" xml:space="preserve">
+    <value>It is one of the provinces with the most differentiated population in Turkey. 
+                    Kurds, Christian Assyrians, Sunni Arabs, Turks, Yezidis and Armenians live in the province. 
+                    Over time, the Syriac and Yazidi population decreased due to immigration. 
+                    A small number of Assyrians live in the Mardin and Midyat regions of Beirut, the capital of Lebanon.</value>
+  </data>
+  <data name="y8" xml:space="preserve">
+    <value>Mardin has a hot-summer Mediterranean climate (Köppen: Csa, Trewartha: Cs) with very hot, 
+                    dry summers and chilly, wet, and occasionally snowy winters. Mardin is very sunny, with over 3000 hours of sun per year. 
+                    While temperatures in summer can easily reach 40 °C (104 °F), because of its continental nature, 
+                    wintry weather is still somewhat common between the months of December and March, and it usually snows for a week or two. 
+                    The highest recorded temperature is 42.5 °C (108.5 °F).</value>
+  </data>
+  <data name="yorum" xml:space="preserve">
+    <value>COMMENTS</value>
+  </data>
+</root>

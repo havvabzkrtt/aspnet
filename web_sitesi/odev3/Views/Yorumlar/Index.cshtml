@@ -1,0 +1,71 @@
+﻿@model IEnumerable<odev3.Models.Table>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container ">
+
+    <h2 class="üstboşluk"> YORUMLAR </h2>
+    <hr class="altboşluk" style="height:2px; width:200px;" />
+    <p>
+        <button type="button" class="btn btn-secondary" style="background-color:aliceblue;">
+            @Html.ActionLink("Yeni Yorum Ekle", "Create")
+        </button>
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Ad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Soyad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Yorum)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Soyad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Yorum)
+                </td>
+                <td>
+                    <button type="button" class="btn btn-secondary" style="background-color:aliceblue;">
+                        @Html.ActionLink("Düzenle", "Edit", new { id = item.Id })
+                    </button>
+                    <button type="button" class="btn btn-secondary" style="background-color:aliceblue;">
+                        @Html.ActionLink("Detaylar", "Details", new { id = item.Id })
+                    </button>
+                    <button type="button" class="btn btn-secondary" style="background-color:aliceblue;">
+                        @Html.ActionLink("Sil", "Delete", new { id = item.Id })
+                    </button>
+                </td>
+            </tr>
+        }
+
+    </table>
+
+</div>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+

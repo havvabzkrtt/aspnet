@@ -1,0 +1,132 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!-- SLİDER -->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+
+    <div class="carousel-inner" style="height: 500px;">
+
+        @foreach (var item in @ViewBag.resimler)
+        {
+            <div class="carousel-item @(item.resim1=="resim1.jpg" ? "active" : "")  ">
+                <img src=@Url.Content("~/Content/Site/resimler/slider/"+ item.resim1) class="d-block w-100 h-100" alt="...">
+            </div>
+        }
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Önceki</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Sonraki</span>
+    </button>
+</div>
+
+
+<!--   *********************************************************************  -->
+
+
+<div class="container üstboşluk">
+
+    <div class="row">
+        <div class="col-md-7 yazı">
+            <strong>
+                @odev3.Kaynaklar.dili.s1 😄
+                <br>
+                @odev3.Kaynaklar.dili.s2 😋
+                <br><br>
+                @odev3.Kaynaklar.dili.s3 🙂
+            </strong>
+            <br>
+        </div>
+
+        <div class="col-md-5 iletisim">
+            <h1><strong> ⬇ @odev3.Kaynaklar.dili.s4 ⬇ </strong></h1>
+            <hr style="height: 5px; color: #12229d; text-align: center;">
+
+            <ul>
+                <li><i class="fa fa-instagram" aria-hidden="true"></i><a href="#"> &nbsp; INSTAGRAM  </a></li>
+                <li><i class="fa fa-twitter" aria-hidden="true"></i><a href="#"> &nbsp; TWİTTER  </a></li>
+                <li><i class="fa fa-linkedin" aria-hidden="true"></i><a href="#"> &nbsp; LINKEDIN  </a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="row üstboşluk">
+
+        <div class="col-md-12 haberBaslık">
+            <strong> @odev3.Kaynaklar.dili.haberler </strong>
+        </div>
+
+    </div>
+
+
+    <div class="row">
+
+        <div class="col-md-12">
+            <!-- Haber 1 -->
+            <div class="card card1" style="width: 25rem;">
+                <img class="card-img-top" src=@Url.Content("~/Content/Site/resimler/haberler/haber_bitlis1.png") alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title"> @odev3.Kaynaklar.dili.kb1 </h5>
+                    <p class="card-text">
+                        @odev3.Kaynaklar.dili.ky1
+                    </p>
+                    <a href=@Url.Action("Haber1","Haberler") class="btn btn-primary"> @odev3.Kaynaklar.dili.ks </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-12">
+            <!-- Haber 2 -->
+            <div class="card card2" style="width: 25rem;">
+                <img class="card-img-top" src=@Url.Content("~/Content/Site/resimler/haberler/haber_spildağı.png") alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title"> @odev3.Kaynaklar.dili.kb2 </h5>
+                    <p class="card-text">
+                        @odev3.Kaynaklar.dili.ky2
+                    </p>
+                    <a href="#" class="btn btn-primary"> @odev3.Kaynaklar.dili.ks </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-12 altboşluk">
+            <!-- Haber 3 -->
+            <div class="card card3" style="width: 25rem;">
+                <img class="card-img-top" src=@Url.Content("~/Content/Site/resimler/haberler/haber_yeraltımağarası.png") alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title"> @odev3.Kaynaklar.dili.kb3</h5>
+                    <p class="card-text">
+                        @odev3.Kaynaklar.dili.ky3
+                    </p>
+                    <a href="#" class="btn btn-primary"> @odev3.Kaynaklar.dili.ks </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
